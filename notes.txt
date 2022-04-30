@@ -1,0 +1,9 @@
+
+linux> ./cleanit.sh
+-- only cxx and html files
+-- html file contains some script files
+-- TODO - place script into its own file and upload both js files
+linux> ./buildit.sh
+-- /home/bill/Projects/wasmProj/emsdk
+-- linux> git pull
+-- linux> source ./emsdk_env.sh
