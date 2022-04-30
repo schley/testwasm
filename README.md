@@ -4,7 +4,10 @@ minimal wasm based webpage
 ### requires a working emscripten installation
 1.  cd pages/testwasm/
 2.  ./cleanit.sh
-3.  ./buildit.sh
+- requires a chmod +x immediately after checkout from github
+- built wasm and js file are available, but building is recommended
+4.  ./buildit.sh
+also requires chmod +x prior to first use
 
 - the wasm file resides in the same directory as generated javascript file
 - two files should be generated in the directory
