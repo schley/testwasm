@@ -12,7 +12,7 @@ function checkit() {
     console.log("tripler of " + val + " = " + _tripler(val));
 }
 
-function updateFromWasm
+function updateFromWasm {
 	var elem_str = document.getElementById('4.0.1');
 	var str_content = AsciiToString(_div4updateArray());
 	// elem_str.innerHTML = str_content;
