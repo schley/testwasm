@@ -25,11 +25,11 @@ const char* div4updateArray()
     static bool isToggled = false;
     isToggled = !isToggled;
     if (isToggled) {
-        update = "(maclane) WASM isToggled == TRUE";
+        update = "(source: github.com/schley/testwasm) WASM isToggled == TRUE";
     }
     else
     {
-        update = "(maclane) WASM isToggled == FALSE";
+        update = "(source: github.com/schley/testwasm) WASM isToggled == FALSE";
     }
     return update.c_str();
 }
